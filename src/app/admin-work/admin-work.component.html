@@ -1,0 +1,119 @@
+ <!-- <div>
+    <form (ngSubmit)="doFormSubmit()" #PlanterForm="ngForm"></form>
+</div>
+<table style="background-color: rgb(244, 221, 226); border: solid 2px;">
+    <tr>
+        <td style="width: 20%; background-color: rgb(244, 221, 226);">
+            
+            <table>
+
+                <div class="form-group">
+                    <label>Planter Id</label>
+                    <input type="text" [(ngModel)]="p.planterId" class="form-control" id="pid" name="pid"
+                        #planterId="ngModel" placeholder="Enter Planter Id" required pattern="[0-9]+">
+                        <div *ngIf="planterId.invalid">
+                            <span style="color: red;" *ngIf="planterId.errors?.['required']">
+                                Planter Id is required 
+                            </span>
+                            <span style="color: red;" *ngIf="planterId.errors?.['pattern']">
+                                planter Id is not valid
+                              </span>
+                      
+                        </div>
+                </div>
+    <br>
+    <div class="form-group">
+        <label>Plant Name</label>
+        <input type="text" [(ngModel)]="p.plantName" class="form-control" id="pname" name="pname"
+            #plantName="ngModel" placeholder="Enter Plant Name" required pattern="[a-zA-Z]+">
+            <div *ngIf="plantName.invalid">
+                <span style="color: red;" *ngIf="plantName.errors?.['required']">
+                    Plant Name is required 
+                </span>
+                <span style="color: red;" *ngIf="plantName.errors?.['pattern']">
+                    Plant Name is not valid
+                  </span>
+          
+            </div>
+    </div>
+
+
+
+
+    <tr>
+        <td> Planter Height </td>
+        <td> <input type="text" #planterHeight/> </td>
+    </tr>
+    <tr>
+        <td> Planter Category</td>
+        <td> 
+            <select #planterCategory>
+                <option> Plant </option>
+                <option> Seed </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> Drinage Holes </td>
+        <td> <input type="text" #drinageHoles/> </td>
+    </tr>
+    <tr>
+        <td> Planter Stock </td>
+        <td> <input type="text" #planterStock/> </td>
+    </tr>
+    <tr>
+        <td> Planter Shape </td>
+        <td> <input type="text" #planterShape/> </td>
+    </tr>
+    <tr>
+        <td> Planter Cost </td>
+        <td> <input type="text" #planterCost/> </td>
+    </tr>
+    <tr>
+        <td>Types Of Planters</td>
+        <td> 
+            <select #typesOfPlanters>
+                <option> Ceramic Planter </option>
+                <option> Wooden Planter </option>
+                <option> Metal Planter </option>
+                <option> Glass Planter </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td> Price </td>
+        <td> <input type="text" #price/> </td>
+    </tr>
+        
+            
+
+    <tr>
+        <td> Discount </td>
+        <td> <input type="text" #discount/> </td>
+    </tr>
+
+    <tr>
+        <td> Image Name </td>
+        <td> <input type="text" #image/> </td>
+    </tr>
+        <tr>
+            <td> Star Rating </td>
+            <td> <input type="text" #starRating/> </td>
+        </tr>
+        <tr>
+            <td>About </td>
+            <td> <input type="text" #about/> </td>
+        </tr>
+        <tr>
+        <td> <input type="reset" vaule="Clear All"></td>
+        <td> <input type="button" 
+            (click)="readPlanter(planterId.value,plantName.value,planterHeight.value,planterCategory.value,drinageHoles.value,planterStock.value,planterShape.value,planterCost.value,typesOfPlanters.value,price.value,discount.value,about.value,image.value,starRating.value)"
+            value="Add Planter" /> </td>
+        </tr>
+    </table>
+    <br/> -->
+
+    
+ 
+
+
